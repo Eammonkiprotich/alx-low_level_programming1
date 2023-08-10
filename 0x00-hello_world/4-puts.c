@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * Prints a linr
+ * main - gives an output
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\"");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
