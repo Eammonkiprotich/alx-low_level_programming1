@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - puts or prints "Programming is like building a multilingual puzzle
+ * main - Prints \"Programming is like building a multilingual puzzle
+ * Return - 0 is always returned
  */
 int main(void)
 {
