@@ -13,7 +13,7 @@ int main(void)
 	int n;
 	char nl;
 
-	for (n = 0; n<=25; n++)
+	for (n = 0; n <= 25; n++)
 		putchar(array[n]);
 	nl = '\n';
 	putchar(nl);
