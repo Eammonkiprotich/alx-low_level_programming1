@@ -11,10 +11,14 @@ int main(void)
 {
 	int n;
 	int last_digit;
+	char array[];
+	int arrayLength;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last_digit = echo "tail -n 1 n";
+	sprintf(array, "%d", n);
+	arrayLength = sizeof(myArray) / sizeof(myArray[0]);
+	last_digit = array[arrayLength -1];
 	
 	if (last_digit > 5)
 		printf("Last digit of %d is %d and is greater than 5", n, last_digit);
