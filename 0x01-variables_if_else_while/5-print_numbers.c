@@ -9,9 +9,11 @@
 int main(void)
 {
 	int n;
+	char nl;
 
 	for (n = 0; n < 11; n++)
 		putchar(n);
-	putchar('\n');
+	nl = '\n';
+	putchar(nl);
 	return (0);
 }
