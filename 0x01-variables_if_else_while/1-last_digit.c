@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last_digit = tail -n 1 n
+	last_digit = echo "tail -n 1 n";
 	
 	if (last_digit > 5)
 		printf("Last digit of %d is %d and is greater than 5", n, last_digit);
