@@ -16,7 +16,7 @@ int main(void)
 	for (n = 0; n <= 25; n++)
 	{
 		if (array[n] == 'q' || array[n] == 'e')
-			break;
+			continue;
 		putchar(array[n]);
 	}
 	nl = '\n';
