@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /*
- * main - program prints the the last number of a randomly generated integer
- * 	and wether its greater than 5 or les than 6 or equal to 0.
+ *main - program prints the the last number of a randomly generated integer
+ *	and wether its greater than 5 or les than 6 or equal to 0.
  */
 int main(void)
 {
