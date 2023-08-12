@@ -2,24 +2,19 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- * main - prints the the last digit followed by an option is it is less or greater than 5
+/*
+ * main - print the last number of a random digit n 
  *
- * Return: the program returns 0 if successful
+ * Return: Always returns 0 if the program is successful
  */
 int main(void)
 {
 	int n;
 	int last_digit;
-	char array[];
-	int arrayLength;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	sprintf(array, "%d", n);
-	arrayLength = sizeof(myArray) / sizeof(myArray[0]);
-	last_digit = array[arrayLength -1];
-	
+	last_digit = n % 10;
 	if (last_digit > 5)
 		printf("Last digit of %d is %d and is greater than 5", n, last_digit);
 	else if (last_digit < 6 && last_digit != 0)
