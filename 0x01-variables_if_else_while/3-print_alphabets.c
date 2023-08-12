@@ -13,16 +13,16 @@ int main(void)
 		'u', 'v', 'w', 'x',
 		'y', 'z'};
 	char array2[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',
-		'J', 'K','L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
+		'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
 		'U', 'V', 'W', 'X','Y', 'Z'};
-        int n;
-        char nl;
+	int n;
+	char nl;
 
-        for (n = 0; n <= 25; n++)
-                putchar(array1[n]);
-	for (n =0; n <= 25; n++)
+	for (n = 0; n <= 25; n++)
+		putchar(array1[n]);
+	for (n = 0; n <= 25; n++)
 		putchar(array2[n]);
-        nl = '\n';
-        putchar(nl);
-        return (0);
+	nl = '\n';
+	putchar(nl);
+	return (0);
 }
