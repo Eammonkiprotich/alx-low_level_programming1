@@ -8,15 +8,13 @@
  */
 int main(void)
 {
-	char n;
-	int a;
+	int n;
 	char nl;
 
-	a = 0;
-	for (n = '0'; n < 10; n++)
+	for (n = 0; n < 10; n++)
 	{
-		putchar(a);
-		a++;
+		n = char(n);
+		putchar(n);
 	}
 	nl = '\n';
 	putchar(nl);
