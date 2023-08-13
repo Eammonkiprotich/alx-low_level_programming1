@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	int n;
+	int n[10];
+	int a;
 	char nl;
 
-	for (n = 0; n < 10; n++)
-	{
-		n = char(n);
-		putchar(n);
-	}
+	n =['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+	for (a = 0; a < 10; a++)
+		putchar(n[a]);
 	nl = '\n';
 	putchar(nl);
 	return (0);
