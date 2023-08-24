@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_to_98 - prints all nat num from input to 98 
